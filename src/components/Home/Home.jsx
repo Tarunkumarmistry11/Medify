@@ -1,6 +1,7 @@
 import { Container, Box, Stack } from "@mui/material";
 import HeroSlider from "../HeroSection/HeroSection";
 import NavBar from "../Navbar/Navbar";
+import IconsServices from "../IconsLayout/IconsServices";
 
 const Home = () => {
     return (
@@ -24,6 +25,7 @@ const Home = () => {
                     spacing={10}
                     boxShadow="0 0 12px rgba(0,0,0,0.1)"
                 >
+                    <IconsServices />
                 </Stack>
             </Container>
         </Box>
