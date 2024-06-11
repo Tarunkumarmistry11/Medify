@@ -2,10 +2,10 @@ import { Box, Stack, Typography } from "@mui/material";
 
 const IconCard = ({ img, title, bgColor, active = false, shadow = false }) => {
   return (
-    <Stack
+    <Stack 
       spacing={2}
       alignItems="center"
-      bgcolor={active ? "rgba(42.167,255,0.08)" : bgColor}
+      bgcolor={active ? "#2AA7FF14" : bgColor}
       p={3}
       borderRadius={2}
       border={active ? "1px solid #2AA7FF" : "0"}

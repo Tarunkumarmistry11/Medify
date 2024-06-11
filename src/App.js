@@ -1,13 +1,17 @@
 import React from 'react';
 import './App.css';
-import NavBar from './components/Navbar/Navbar';
-import HeroSlider from './components/HeroSection/HeroSection';
-import Home from './components/Home/Home';
+import Footer from './components/Footer/Footer';
+import DownloadApp from './components/Section/DownloadApp/DownloadApp';
+import { CssBaseline } from '@mui/material';
+import { Outlet } from 'react-router-dom';
 
 function App() {
   return (
     <div>
-      <Home />
+      <CssBaseline />
+      <Outlet />
+      <DownloadApp />
+      <Footer />
     </div>
   );
 }

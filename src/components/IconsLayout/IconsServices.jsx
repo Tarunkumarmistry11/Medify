@@ -12,7 +12,7 @@ const IconsServices = () => {
     () => [
       { img: doctorIcon, title: "Doctors" },
       { img: pharmacyIcon, title: "Labs" },
-      { img: hospitalIcon, title: "Hospitals", active: true },
+      { img: hospitalIcon, title: "Hospitals", active: true, BorderColor: "blue" },
       { img: capsuleIcon, title: "Medical Store" },
       { img: ambulanceIcon, title: "Ambulance" },
     ],
